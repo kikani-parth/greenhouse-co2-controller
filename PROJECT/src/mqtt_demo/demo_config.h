@@ -89,7 +89,7 @@ extern void vLoggingPrintf( const char * pcFormatString,
  *
  * #define democonfigMQTT_BROKER_ENDPOINT				"insert here."
  */
-#define democonfigMQTT_BROKER_ENDPOINT				"mqtt3.thingspeak.com"
+#define democonfigMQTT_BROKER_ENDPOINT				""
 
 /**
  * @brief The port to use for the demo.
@@ -106,14 +106,14 @@ extern void vLoggingPrintf( const char * pcFormatString,
  */
 #define democonfigDEMO_STACKSIZE    (configMINIMAL_STACK_SIZE + 256)
 
-#define CHANNEL 2352903
-#define SECRET_MQTT_USERNAME "CjUiBzYtOy8WMTwpCg4YDyE"
-#define SECRET_MQTT_CLIENT_ID "CjUiBzYtOy8WMTwpCg4YDyE"
-#define SECRET_MQTT_PASSWORD "DiqSrOOStPGhnUn5EIgsRGwM"
+#define CHANNEL 0000000 // insert channel here
+#define SECRET_MQTT_USERNAME ""
+#define SECRET_MQTT_CLIENT_ID ""
+#define SECRET_MQTT_PASSWORD ""
 
 #if 1
-#define WIFI_SSID	    "SmartIotMQTT"
-#define WIFI_PASS       "SmartIot"
+#define WIFI_SSID	    ""
+#define WIFI_PASS       ""
 #endif
 
 #endif /* DEMO_CONFIG_H */
